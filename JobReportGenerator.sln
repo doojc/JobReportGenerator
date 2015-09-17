@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobReportGenerator.Interfaces", "JobReportGenerator.Interfaces\JobReportGenerator.Interfaces.csproj", "{41F4A845-123F-4A80-9D72-F27CD69218EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobReportGenerator.Implementation", "JobReportGenerator.Implementation\JobReportGenerator.Implementation.csproj", "{B9612E31-78E8-43A5-8A73-C78B3F1D7176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobReportGenerator.Factories", "JobReportGenerator.Factories\JobReportGenerator.Factories.csproj", "{B6D5113A-3406-48C7-9834-8BC48F43C8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobReportGenerator.Storage", "JobReportGenerator.Storage\JobReportGenerator.Storage.csproj", "{8F133604-CDA8-403C-B3A9-F7FFAEBBD072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobReportGenerator.Management", "JobReportGenerator.Management\JobReportGenerator.Management.csproj", "{3B51E637-A19F-44C1-96B8-E86EA2072C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobReportGenerator.Console", "JobReportGenerator.Console\JobReportGenerator.Console.csproj", "{71D1A160-42BF-40BA-9C58-B2F4F94CDF4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41F4A845-123F-4A80-9D72-F27CD69218EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F4A845-123F-4A80-9D72-F27CD69218EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F4A845-123F-4A80-9D72-F27CD69218EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F4A845-123F-4A80-9D72-F27CD69218EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9612E31-78E8-43A5-8A73-C78B3F1D7176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9612E31-78E8-43A5-8A73-C78B3F1D7176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9612E31-78E8-43A5-8A73-C78B3F1D7176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9612E31-78E8-43A5-8A73-C78B3F1D7176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D5113A-3406-48C7-9834-8BC48F43C8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D5113A-3406-48C7-9834-8BC48F43C8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D5113A-3406-48C7-9834-8BC48F43C8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D5113A-3406-48C7-9834-8BC48F43C8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F133604-CDA8-403C-B3A9-F7FFAEBBD072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F133604-CDA8-403C-B3A9-F7FFAEBBD072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F133604-CDA8-403C-B3A9-F7FFAEBBD072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F133604-CDA8-403C-B3A9-F7FFAEBBD072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B51E637-A19F-44C1-96B8-E86EA2072C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B51E637-A19F-44C1-96B8-E86EA2072C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B51E637-A19F-44C1-96B8-E86EA2072C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B51E637-A19F-44C1-96B8-E86EA2072C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D1A160-42BF-40BA-9C58-B2F4F94CDF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D1A160-42BF-40BA-9C58-B2F4F94CDF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D1A160-42BF-40BA-9C58-B2F4F94CDF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D1A160-42BF-40BA-9C58-B2F4F94CDF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
